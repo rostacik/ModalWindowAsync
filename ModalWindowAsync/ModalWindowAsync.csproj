@@ -90,8 +90,14 @@
     <Content Include="Content\themes\base\tabs.css" />
     <Content Include="Content\themes\base\theme.css" />
     <Content Include="Content\themes\base\tooltip.css" />
+    <Content Include="Dialog\host.html" />
+    <Content Include="Scripts\Dialog\host.js" />
+    <Content Include="Dialog\popup.html" />
+    <Content Include="Dialog\popup2.html" />
     <Content Include="packages.config" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
+    <Content Include="Scripts\Dialog\popup.js" />
+    <Content Include="Scripts\Dialog\popup2.js" />
     <Content Include="Scripts\jquery-2.1.1.js" />
     <Content Include="Scripts\jquery-2.1.1.min.js" />
     <Content Include="Scripts\jquery-ui-1.11.2.js" />
