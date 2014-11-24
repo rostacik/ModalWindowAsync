@@ -42,7 +42,7 @@ function openFirstModal() {
     var popupRes = myOpenWindowFn({ url: 'popup.html', iframeId: 'someIframeId' });
 
     return popupRes.then(function (value) {
-        return ("First value : " + value);
+        return ("input value : " + value);
     });
 }
 
@@ -50,6 +50,6 @@ function openSecondModal() {
     var popupRes = myOpenWindowFn({ url: "popup2.html", iframeId: 'someIframeId2' });
 
     return popupRes.then(function (value) {
-        return ("second value : " + value);
+        return ("input value : " + value);
     });
 }
