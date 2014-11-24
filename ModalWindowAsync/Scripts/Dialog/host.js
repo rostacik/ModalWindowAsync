@@ -17,7 +17,7 @@
 function myOpenWindowFn(param) {
     var deferred = $.Deferred();
 
-    var hostIframe = "<iframe id=\"" + param.iframeId + "\" src=\"" + param.url + "\" frameborder=\"0\"></iframe>";
+    var hostIframe = "<iframe id=\"" + param.iframeId + "\" src=\"" + param.url + "\" frameborder=\"0\" class=\"iframeClass\"></iframe>";
     var dialogDiv = $("<div id=\"dialog\" title=\"Basic dialog\">" + hostIframe + "</div >").dialog({ modal: true });
 
     window.addEventListener("message", msgReceived, false);
