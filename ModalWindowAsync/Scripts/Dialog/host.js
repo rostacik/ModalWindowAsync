@@ -50,6 +50,6 @@ function openSecondModal() {
     var popupRes = myOpenWindowFn({ url: "popup2.html", iframeId: 'someIframeId2' });
 
     return popupRes.then(function (value) {
-        return (" , second value : " + value);
+        return ("second value : " + value);
     });
 }
