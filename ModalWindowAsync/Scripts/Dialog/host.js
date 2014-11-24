@@ -8,7 +8,7 @@
     $('#twoModalsBtn').click(function () {
         openFirstModal().done(function (val) {
             openSecondModal().done(function (val2) {
-                alert(val + " sent from first window, " + val2 + " sent from second");
+                alert(val + " sent from first window, " + val2 + " sent from second window");
             });
         });
     });
@@ -42,7 +42,7 @@ function openFirstModal() {
     var popupRes = myOpenWindowFn({ url: 'popup.html', iframeId: 'someIframeId' });
 
     return popupRes.then(function (value) {
-        return (value + " edited by then in openFirstModal");
+        return ("First value : " + value);
     });
 }
 
@@ -50,6 +50,6 @@ function openSecondModal() {
     var popupRes = myOpenWindowFn({ url: "popup2.html", iframeId: 'someIframeId2' });
 
     return popupRes.then(function (value) {
-        return (value + " edited by then in openSecondModal");
+        return (" , second value : " + value);
     });
 }
