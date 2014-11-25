@@ -38,6 +38,10 @@ I will try to make the long story short :
 
 However there is small change here : I am using jQuery dialog to open modal window. But the notion remains, we are using window object of "host" page where we post messages. Since there can be more "listeners" (and also senders) I am doing check if the ID of iframe where we load our page is same we hope for. This code might interfere with your code, if you for some reason listen if messages arrive on window object. Please be aware of this.
 
-Please feel free to send me any comments and/or ideas to make this better. Thank you.
+Where to look in the solution :
+-
+Two main "areas" are where you should look are **host.js** and **popup.js**. I used Visual Studio 2013 Update 4. You can find them here : [https://github.com/rostacik/ModalWindowAsync/tree/master/ModalWindowAsync/Scripts/Dialog](https://github.com/rostacik/ModalWindowAsync/tree/master/ModalWindowAsync/Scripts/Dialog). These two files are used in host.html and popup.html and popup2.html that you can find here : [https://github.com/rostacik/ModalWindowAsync/tree/master/ModalWindowAsync/Dialog](https://github.com/rostacik/ModalWindowAsync/tree/master/ModalWindowAsync/Dialog).
+
+Please feel free to send me any comments and/or ideas to make this better : dusan a t rostacik d o t net. Pull requests are welcome. Thank you.
 
 Dušan 
