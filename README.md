@@ -40,7 +40,9 @@ However there is small change here : I am using jQuery dialog to open modal wind
 
 Where to look in the solution :
 -
-Two main "areas" are where you should look are **host.js** and **popup.js**. I used Visual Studio 2013 Update 4. You can find them here : [https://github.com/rostacik/ModalWindowAsync/tree/master/ModalWindowAsync/Scripts/Dialog](https://github.com/rostacik/ModalWindowAsync/tree/master/ModalWindowAsync/Scripts/Dialog). These two files are used in host.html and popup.html and popup2.html that you can find here : [https://github.com/rostacik/ModalWindowAsync/tree/master/ModalWindowAsync/Dialog](https://github.com/rostacik/ModalWindowAsync/tree/master/ModalWindowAsync/Dialog).
+I used **Visual Studio 2013 Update 4** so everything in this project is packaged as VS solution. Anyway, you don't need VS to play with the code.
+
+Two main "areas" are where you should look are **host.js** and **popup.js**.  You can find them here : [https://github.com/rostacik/ModalWindowAsync/tree/master/ModalWindowAsync/Scripts/Dialog](https://github.com/rostacik/ModalWindowAsync/tree/master/ModalWindowAsync/Scripts/Dialog). These two files are used in host.html and popup.html and popup2.html that you can find here : [https://github.com/rostacik/ModalWindowAsync/tree/master/ModalWindowAsync/Dialog](https://github.com/rostacik/ModalWindowAsync/tree/master/ModalWindowAsync/Dialog).
 
 Please feel free to send me any comments and/or ideas to make this better : dusan a t rostacik d o t net. Pull requests are welcome. Thank you.
 
